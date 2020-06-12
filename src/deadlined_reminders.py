@@ -24,6 +24,7 @@ class DateReminder(DeadlinedReminder):
     def is_due(self):
         return self.date <= datetime.now()
     
+    # CSV Writer expects iter - this allows it to be implementation agnostic
     def __iter__(self):
         formatted_date=self.date.isoformat()
         return iter([self.text, formatted_date])
