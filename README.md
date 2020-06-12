@@ -1,3 +1,10 @@
+### Notes
+
+#### dateutil.parser.parse()
+This is a super useful datetime parser
+
+---
+
 # python-build-cli-planner-app
 
 In this project you will implement a simple reminder app with a command line interface (CLI). While doing so, you will learn how to use inheritance and abstract base classes to make your code modular and to ensure a contract between your classes.
